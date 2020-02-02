@@ -2,9 +2,7 @@
 import arcade
 import os
 import lifebar
-
-arcade.open_window(1200, 600, "Tanks",antialiasing=True, resizable=True)
-arcade.start_render() #doit être fait avant chaque commande de dessin
+import Map 
 
 def tank_bleu():
     arcade.draw_rectangle_filled(600, 300, 100, 150,arcade.color.BLUE) #rectangle du tank bleu
@@ -22,3 +20,8 @@ def tank_rouge():
 
 arcade.finish_render() #doit être fait à la fin du dessin
 arcade.run() #garde la fenêtre ouverte jusqu'à ce que quelqu'un la ferme
+
+def main():
+    arcade.open_window(1200, 600, "Tanks",antialiasing=True, resizable=True)
+    arcade.start_render() #doit être fait avant chaque commande de dessin
+

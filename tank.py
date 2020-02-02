@@ -29,6 +29,10 @@ def barrebleu(vie):
     arcade.draw_rectangle_outline(width=100,height=10,arcade.color.WHITE,border_width=2)
     if hpbleu==100:
         arcade.draw_rectangle_filled(width=100,height=10,arcade.color.LIGHT_BLUE)
+    elif hpbleu==80:
+        arcade.draw_rectangle_filled(width=80,height=10,arcade.color.LIGHT_BLUE)
+    elif hpbleu==60:
+        arcade.draw_rectangle_filled(width=60,height=10,arcade.color.LIGHT_BLUE)
 
 arcade.finish_render() #doit être fait à la fin du dessin
 arcade.run() #garde la fenêtre ouverte jusqu'à ce que quelqu'un la ferme
@@ -39,5 +43,6 @@ def main():
 
     tank_bleu()
     tank_rouge()
+    
 
 

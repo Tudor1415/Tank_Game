@@ -9,9 +9,14 @@ arcade.start_render() #doit être fait avant chaque commande de dessin
 arcade.draw_rectangle_filled(600, 300, 100, 150,arcade.color.BLUE) #rectangle du tank bleu
 arcade.draw_rectangle_filled(600,370,30,150,arcade.color.BLUE) #rectangle du canon du tank bleu
 arcade.draw_rectangle_outline(600,300,100,150,arcade.color.WHITE,border_width=2) #contour du tank bleu en blanc
-arcade.draw_rectangle_outline(600,370,30,150,arcade.color.WHITE)
-arcade.draw_circle_filled(600,300,20,arcade.color.DARK_BLUE)
+arcade.draw_rectangle_outline(600,370,30,150,arcade.color.WHITE)#contour du canon du tank bleu
+arcade.draw_circle_filled(600,300,20,arcade.color.DARK_BLUE) #pivot du canon
 
+arcade.draw_rectangle_filled(300, 300, 100, 150,arcade.color.RED) #rectangle du tank rouge
+arcade.draw_rectangle_filled(300,370,30,150,arcade.color.RED) #rectangle du canon du tank bleu
+arcade.draw_rectangle_outline(300,300,100,150,arcade.color.WHITE,border_width=2) #contour du tank rouge en blanc
+arcade.draw_rectangle_outline(300,370,30,150,arcade.color.WHITE)#contour du canon du tank rouge
+arcade.draw_circle_filled(300,300,20,arcade.color.DARK_BLUE) #pivot du canon
 
 
 

@@ -20,3 +20,5 @@ class cmdMap:
         for i in range(self.X):
             print(self.map[i])
         return "Success"
+
+    

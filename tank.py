@@ -66,6 +66,7 @@ def main():
     arcade.finish_render() #doit être fait à la fin du dessin
     arcade.run() #garde la fenêtre ouverte jusqu'à ce que quelqu'un la ferme
 
-main()
+if __name__ == "__main__":
+    main()
 
 

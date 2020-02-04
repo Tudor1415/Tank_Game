@@ -9,4 +9,3 @@ def install(package):
 install('numpy')
 install('arcade')
 install('sklearn')
-input()

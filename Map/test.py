@@ -1,4 +1,10 @@
-from Map import cmdMap
+from Map import *
+import arcade
 
-a = cmdMap(10, 10)
-print(a)
+def main():
+    GraphicGrid(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+    arcade.run()
+
+
+if __name__ == "__main__":
+    main()
